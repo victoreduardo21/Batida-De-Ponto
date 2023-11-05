@@ -1,0 +1,160 @@
+body{
+	background: #8A2BE2 url('imagens/fundo1.png');
+	padding: 0;
+    margin: 0;
+}
+
+.navegacao { /*isso é pra link*/
+    margin: 10px 7%;
+    text-decoration: nome;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+/*isso esta no cadatro*/
+/*estilos gerais*/
+.center{
+    text-align: center;
+}
+
+ /*isto esta na index*/
+ /*logos*/
+ .img {
+     text-align: center;
+     padding: 40px;
+ }
+ /*isto esta na index*/
+ /*mostra e esconder senha*/
+ #icon {
+     /* icon */
+     position: absolute;
+     top: 50%;
+     right: 50px;
+     transform: translateY(-30%);
+     background: url(../img/mostra.jpeg);
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+ }
+
+ #icon.esconder {
+     /* icon */
+     background: url(../img/esconder.jpeg);
+     background-size: cover;
+
+ }
+/*isto esta na index*/
+#telaLogin {
+    /* inicio login */
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(37, 37, 37);
+    /*sombreado*/
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/*isto esta na index*/
+/* botao tela loguin login */
+
+.botao {
+    background-color: rgb(48, 110, 233);
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 150px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.botao:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: rgb(48, 187, 233);
+    padding: 5px 150px;
+    transition: .5s;
+}
+
+.botao a {
+    color: white;
+    transition: .5s;
+}
+
+.botao:hover>a {
+    text-decoration: none;
+    color: rgb(48, 187, 233);
+    transition: .5s;
+}
+
+   /*isto esta na conta*/
+  .img1{
+    text-align: center;
+    padding:10px;
+  }
+
+/*Dados do funcionarios*/
+
+/* botao gera folha de pagamento*/
+.Botao{
+    background-color:  rgb(48, 110, 233);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    padding: 5px 90px;
+    text-align: center;
+}
+.Botao:hover{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: rgb(48, 187, 233);
+    padding: 5px 90px;
+    transition: .5s;
+}
+.Botao a{
+    color: white;
+    transition: .5s;
+}
+.Botao:hover> a{
+    text-decoration: none;
+color: rgb(48, 187, 233);
+transition: .5s;
+}
+
+/*isso esta no funcionarios*/
+/*tabela de funcionarios*/
+#table {
+    width: 1000px;
+    box-shadow: 1px 5px 30px rgb(0, 0, 0);
+    /*sombreado*/
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 15%;
+
+}
+
+
+/*isso esta no cadatro*/
+#dados {
+    width: 900px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(37, 37, 37);
+    /*sombreado*/
+    border-radius: 10px;
+    padding: -100px;
+}
+

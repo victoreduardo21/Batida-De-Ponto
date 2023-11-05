@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    
+    <title>Registro</title>
+    <link rel="icon" href="../img/logo1.png">
+
+  </head>
+  <body ><br><br>
+
+    <div class="img1"><!--inicio cabeçalho-->
+      <a href="../html/index.html">
+      <img src="../img/logo.jpeg" width="300">
+     </a>
+  </div><!--fim cabeçalho-->
+
+    <nav class="navbar navbar-expand-sm">
+      <p class="navegacao"> 
+        <ul class="nav">
+
+        <li class="nav-item" >
+          <a href="#" class="nav-link">
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong">
+              sair
+          </button>
+          </a>
+          </li>
+
+          <li class="nav-item" >
+            <a href="#" class="nav-link">
+            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalLong1">
+            Batida de ponto
+          </button>
+          </a>
+        </li>
+        <li class="nav-item" >
+          <a href="dados.html" class="nav-link"><button type="button" class="btn btn-outline-light" >Dados</button></a>
+        </li>
+      </ul> 
+      </p>
+      </nav> 
+      
+      
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Registrando saida</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Você tem certeza que deseja realmente registra o fim do seu expediente ?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fecha</button>
+                   <a href="index.html"> <button type="button" class="btn btn-primary">Sair</button></a>
+                  </div>                 
+                </div>
+              </div>
+            </div>
+            
+                        <!-- Modal ponto -->
+                        <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Registrando ponto</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                Você tem certeza que deseja realmente registra o Seu ponto ?
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fecha</button>
+                               <a href="index.html"> <button type="button" class="btn btn-primary">Sair</button></a>
+                              </div>                 
+                            </div>
+                          </div>
+                        </div>
+            
+
+      <!-- Button trigger modal -->
+      <div>
+         <div  id="table">
+            <div lass="row">
+                <table class="table fixed">
+                <thead class="bg-warning">
+                  <tr> 
+                    <th scope="col">Status</th>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Entrada/saida</th>
+                  </tr>
+                </thead>
+                <tbody >
+                  <tr class="bg-light">
+                    <td><i class="fa fa-check"></i></td>
+                    <td>01/11/2023</td>
+                    <td>08:00 / 18:00</td>
+                    </th>
+                  </tr>
+                  <tr class="bg-light">
+                    <td><i class="fa fa-check"></i></td>
+                    <td>02/11/2023</td>
+                    <td>08:10 / 18:00</td>
+                    </tr>
+                   <tr class="bg-light">
+                    <td><i i class="fa fa-check"></i></td>
+                    <td>03/11/2023</td>
+                    <td>08:05 / 18:00</td>
+                    </tr>
+                    <tr class="bg-light">
+                      <td><i class="fa fa-times-circle"></i></td>
+                      <td>04/11/2023</td>
+                      <td></td>
+                      </tr>
+                      <tr class="bg-light">
+                        <td><i class="fa fa-times-circle"></i></td>
+                        <td>05/11/2023</td>
+                        <td></td>
+                        </tr>    
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+
+
+<script src="../js/senha.js"></script>
+<script src="../js/bd.js"></script>
+ <!-- JavaScript (Opcional) -->
+ <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
